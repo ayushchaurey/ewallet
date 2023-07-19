@@ -10,13 +10,7 @@ public class WalletManager {
         transactionFeeCalculator = new TransactionFeeCalculator();
     }
 
-    // public void createWallet(String type, String user, double balance) {
-    //     if ("Personal".equalsIgnoreCase(type)) {
-    //         wallets.add(new PersonalWallet(user, balance, transactionFeeCalculator));
-    //     } else if ("Business".equalsIgnoreCase(type)) {
-    //         wallets.add(new BusinessWallet(user, String.valueOf(balance), balance));
-    //     }
-    // }
+   
 
     public void createWallet(String type, String user, double balance) {
         if ("Personal".equalsIgnoreCase(type)) {
